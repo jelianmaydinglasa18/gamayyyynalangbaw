@@ -1,0 +1,33 @@
+#services {
+  background: #ffffff;
+  padding: 50px 20px;
+}
+
+.services-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.service-list {
+  display: flex;
+  gap: 24px;
+}
+
+.service-heading {
+  text-align: center;
+}
+
+.service-header h2 {
+  font-size: 38px;
+  margin-bottom: 14px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .service-list {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+  }
+}
